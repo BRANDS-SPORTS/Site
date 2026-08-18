@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo Brands Sports de uniformes e camisetas personalizáveis, sem preços e com atendimento direto pelo WhatsApp.">
+  <meta name="theme-color" content="#123f46">
+  <title>Catálogo | Brands Sports</title>
+  <link rel="icon" type="image/png" href="assets/logo-brands-white.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="catalog-page">
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+      <path d="M20.52 3.48A11.84 11.84 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.95L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.23-6.17-3.46-8.42ZM12.08 21.8h-.01a9.88 9.88 0 0 1-5.04-1.38l-.36-.21-3.74.98 1-3.65-.23-.38a9.88 9.88 0 0 1-1.52-5.26c0-5.46 4.44-9.9 9.91-9.9a9.82 9.82 0 0 1 7 2.9 9.83 9.83 0 0 1 2.9 7c-.01 5.46-4.45 9.9-9.91 9.9Zm5.43-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a9 9 0 0 1-1.66-2.06c-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.61-.92-2.2-.24-.59-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+    </symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#catalogo">Pular para o catálogo</a>
+
+  <div class="announcement-bar">
+    <p>Atendimento e pedidos pelo WhatsApp</p>
+    <a class="js-whatsapp" href="#">(11) 99024-2977 <span>→</span></a>
+  </div>
+
+  <header class="site-header catalog-header">
+    <div class="header-inner">
+      <a class="brand-tile" href="index.html" aria-label="Voltar para a página inicial da Brands Sports">
+        <img src="assets/logo-brands-white.png" alt="Brands Sport">
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="#catalogo" aria-current="page">Catálogo</a>
+        <a href="index.html#como-funciona">Como pedir</a>
+      </nav>
+      <a class="header-cta js-whatsapp" href="#">
+        <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+        <span>Falar com a Brands</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <div class="catalog-hero-copy reveal">
+        <p class="eyebrow eyebrow-light"><span></span> Catálogo Brands Sports</p>
+        <h1>Escolha o modelo.<br><em>A gente faz acontecer.</em></h1>
+        <p>Pesquise por tema, modalidade ou profissão. Nenhum preço por aqui: cada projeto recebe um atendimento personalizado.</p>
+      </div>
+      <div class="catalog-hero-stat reveal">
+        <strong id="catalog-total">694</strong>
+        <span>modelos prontos<br>para inspirar</span>
+      </div>
+    </section>
+
+    <section class="catalog-shell" id="catalogo">
+      <div class="catalog-toolbar">
+        <form class="catalog-search" id="catalog-search" role="search">
+          <label for="catalog-search-input">Encontre seu modelo</label>
+          <div class="catalog-search-field">
+            <svg aria-hidden="true"><use href="#icon-search"></use></svg>
+            <input id="catalog-search-input" type="search" placeholder="Busque por tema, animal, profissão ou modalidade" autocomplete="off">
+            <button type="submit">Buscar</button>
+          </div>
+        </form>
+
+        <div class="catalog-tabs-wrap">
+          <p>NAVEGUE POR CATEGORIA</p>
+          <div class="catalog-tabs" role="group" aria-label="Categorias do catálogo">
+            <button class="catalog-tab active" type="button" data-catalog-query="">Todos</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Interclasse">Interclasse</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Terceirao">Terceirão</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Nono Ano">Nono ano</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Time Amador">Times</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Pesca">Pesca</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Agro">Agro</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Abada">Abadás</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Formandos">Formandos</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Professor">Professor</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Profissao">Profissões</button>
+            <button class="catalog-tab" type="button" data-catalog-query="Religiao">Religiosos</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-results-head">
+        <div>
+          <p class="catalog-kicker">MODELOS ENCONTRADOS</p>
+          <strong id="catalog-result-count">Carregando catálogo...</strong>
+        </div>
+        <p>Selecione seus favoritos <span>✓</span></p>
+      </div>
+
+      <div class="catalog-grid" id="catalog-grid" aria-live="polite" aria-busy="true"></div>
+      <div class="catalog-empty" id="catalog-empty" hidden>
+        <span>?</span>
+        <h2>Nenhum modelo encontrado.</h2>
+        <p>Tente buscar com outro termo ou fale com a Brands para criar algo do zero.</p>
+        <a class="button button-primary js-whatsapp" href="#">Pedir um modelo exclusivo</a>
+      </div>
+
+      <div class="catalog-load-more" id="catalog-load-more-wrap">
+        <button class="button button-outline" id="catalog-load-more" type="button">Carregar mais modelos</button>
+      </div>
+    </section>
+
+    <section class="catalog-help">
+      <div><span>01</span><p><strong>Escolha</strong> um ou mais modelos.</p></div>
+      <div><span>02</span><p><strong>Envie</strong> sua seleção pelo WhatsApp.</p></div>
+      <div><span>03</span><p><strong>Personalize</strong> com cores, nomes e logos.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><img src="assets/logo-brands-white.png" alt="Brands Sport"><p>Uniformes que vestem identidade.</p></div>
+      <div class="footer-nav"><p>NAVEGUE</p><a href="index.html">Início</a><a href="#catalogo">Catálogo</a><a href="index.html#como-funciona">Como pedir</a></div>
+      <div class="footer-contact"><p>ATENDIMENTO</p><a class="js-whatsapp" href="#">WhatsApp: (11) 99024-2977</a><span>Atendimento online</span></div>
+    </div>
+    <div class="footer-bottom"><span>© <span class="js-year"></span> Brands Sports</span><span>Todos os direitos reservados.</span></div>
+  </footer>
+
+  <div class="selection-bar" id="selection-bar" aria-live="polite" hidden>
+    <div class="selection-summary">
+      <span class="selection-icon"><svg aria-hidden="true"><use href="#icon-check"></use></svg></span>
+      <div><strong id="selection-count">0 modelos selecionados</strong><button id="selection-clear" type="button">Limpar seleção</button></div>
+    </div>
+    <button class="selection-send" id="selection-send" type="button">
+      <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+      Enviar seleção pelo WhatsApp
+    </button>
+  </div>
+
+  <dialog class="product-dialog" id="product-dialog">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Fechar detalhes">
+      <svg aria-hidden="true"><use href="#icon-close"></use></svg>
+    </button>
+    <div class="dialog-media"><img id="dialog-image" src="" alt=""></div>
+    <div class="dialog-content">
+      <p id="dialog-category">MODELO BRANDS</p>
+      <h2 id="dialog-title"></h2>
+      <span id="dialog-code"></span>
+      <p>Gostou deste modelo? Envie para nosso atendimento e conte como quer personalizar sua peça.</p>
+      <a class="button button-whatsapp" id="dialog-whatsapp" href="#">
+        <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+        Quero este modelo
+      </a>
+      <button class="dialog-select" id="dialog-select" type="button">Adicionar à minha seleção</button>
+    </div>
+  </dialog>
+
+  <a class="floating-whatsapp js-whatsapp" href="#" aria-label="Falar com a Brands Sports pelo WhatsApp">
+    <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg><span>Fale com a gente</span>
+  </a>
+
+  <script src="config.js"></script>
+  <script src="catalog-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
