@@ -4,7 +4,7 @@
   const config = window.BRANDS_CONFIG || {};
   const sourceCatalogItems = Array.isArray(window.BRANDS_CATALOG) ? window.BRANDS_CATALOG : [];
   const catalogItems = sourceCatalogItems.filter(isGarmentModel);
-  const whatsappNumber = String(config.whatsapp || '5511990242977').replace(/\D/g, '');
+  const whatsappNumber = String(config.whatsapp || '5511999935869').replace(/\D/g, '');
 
   const categoryLabels = {
     '': 'Modelo Brands',

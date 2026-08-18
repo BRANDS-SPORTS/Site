@@ -20,13 +20,14 @@
       <path d="M20.52 3.48A11.84 11.84 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.95L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.23-6.17-3.46-8.42ZM12.08 21.8h-.01a9.88 9.88 0 0 1-5.04-1.38l-.36-.21-3.74.98 1-3.65-.23-.38a9.88 9.88 0 0 1-1.52-5.26c0-5.46 4.44-9.9 9.91-9.9a9.82 9.82 0 0 1 7 2.9 9.83 9.83 0 0 1 2.9 7c-.01 5.46-4.45 9.9-9.91 9.9Zm5.43-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a9 9 0 0 1-1.66-2.06c-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.61-.92-2.2-.24-.59-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
     </symbol>
     <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></symbol>
   </svg>
 
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
   <div class="announcement-bar">
     <p>Atendimento e pedidos pelo WhatsApp</p>
-    <a class="js-whatsapp" href="#">(11) 99024-2977 <span>→</span></a>
+    <a class="js-whatsapp" href="#">Chamar no WhatsApp <span>→</span></a>
   </div>
 
   <header class="site-header" id="inicio">
@@ -46,10 +47,16 @@
         <a href="#qualidade">Por que a Brands</a>
       </nav>
 
-      <a class="header-cta js-whatsapp" href="#">
-        <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
-        <span>Falar com a Brands</span>
-      </a>
+      <div class="header-actions">
+        <a class="header-cta js-whatsapp" href="#">
+          <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+          <span>Falar com a Brands</span>
+        </a>
+        <a class="header-cta header-instagram" href="https://www.instagram.com/brandsssport/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o Instagram da Brands Sports em uma nova aba">
+          <svg aria-hidden="true" focusable="false"><use href="#icon-instagram"></use></svg>
+          <span>Instagram</span>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -59,7 +66,7 @@
       <div class="hero-copy reveal">
         <p class="eyebrow"><span></span> Uniformes que representam</p>
         <h1>Vista o que<br><em>une o seu time.</em></h1>
-        <p class="hero-lead">Modelos marcantes para equipes, turmas, empresas e eventos. Você escolhe a referência e a gente cuida da personalização.</p>
+        <p class="hero-lead">Modelos marcantes para equipes, turmas, empresas e eventos. Escolha uma referência do catálogo ou peça um modelo personalizado — a gente cuida do restante.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="catalogo.html">
             Explorar o catálogo
@@ -165,6 +172,13 @@
         <p class="eyebrow eyebrow-light"><span></span> Do modelo ao pedido</p>
         <h2>Escolher ficou<br><em>bem mais simples.</em></h2>
         <p>Sem carrinho, sem preço engessado e sem formulário complicado. Cada projeto é atendido de acordo com o que você precisa.</p>
+        <aside class="custom-art-note" role="note" aria-label="Informação sobre modelos personalizados e criação de arte">
+          <span class="custom-art-note-icon" aria-hidden="true">i</span>
+          <div>
+            <strong>Modelos personalizados</strong>
+            <span>Também produzimos modelos exclusivos para o seu projeto. A criação de uma nova arte pode ter cobrança adicional, conforme a complexidade. Quando houver custo, ele será informado antes do início do trabalho.</span>
+          </div>
+        </aside>
         <a class="button button-light js-whatsapp" href="#">
           Começar meu pedido
           <svg aria-hidden="true"><use href="#icon-arrow"></use></svg>
@@ -178,7 +192,7 @@
           <span>02</span><div><h3>Selecione seus favoritos</h3><p>Marque um ou vários modelos e envie a lista pronta pelo WhatsApp.</p></div>
         </article>
         <article class="process-step reveal">
-          <span>03</span><div><h3>Personalize com a Brands</h3><p>Conte suas cores, quantidades, tamanhos, nomes, números e logos.</p></div>
+          <span>03</span><div><h3>Personalize ou crie do zero</h3><p>Adapte uma referência do catálogo ou solicite um modelo exclusivo para o seu grupo.</p></div>
         </article>
       </div>
     </section>
@@ -209,10 +223,16 @@
       </div>
       <div class="cta-action reveal">
         <p>Fale com a Brands Sports e transforme sua referência em um projeto com a cara do seu grupo.</p>
-        <a class="button button-whatsapp js-whatsapp" href="#">
-          <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
-          (11) 99024-2977
-        </a>
+        <div class="cta-buttons">
+          <a class="button button-whatsapp js-whatsapp" href="#">
+            <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+            WhatsApp
+          </a>
+          <a class="button button-instagram" href="https://www.instagram.com/brandsssport/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o Instagram da Brands Sports em uma nova aba">
+            <svg aria-hidden="true" focusable="false"><use href="#icon-instagram"></use></svg>
+            Instagram
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -231,8 +251,17 @@
       </div>
       <div class="footer-contact">
         <p>ATENDIMENTO</p>
-        <a class="js-whatsapp" href="#">WhatsApp: (11) 99024-2977</a>
-        <span>Atendimento online</span>
+        <div class="footer-contact-actions">
+          <a class="footer-contact-button footer-whatsapp js-whatsapp" href="#" aria-label="Falar com a Brands Sports pelo WhatsApp">
+            <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+            <span>WhatsApp</span>
+          </a>
+          <a class="footer-contact-button footer-instagram" href="https://www.instagram.com/brandsssport/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Brands Sports, @brandsssport (abre em nova aba)">
+            <svg aria-hidden="true" focusable="false"><use href="#icon-instagram"></use></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+        <span>@brandsssport · Atendimento online</span>
       </div>
     </div>
     <div class="footer-bottom">
@@ -241,15 +270,25 @@
     </div>
   </footer>
 
-  <a class="floating-whatsapp js-whatsapp" href="#" aria-label="Falar com a Brands Sports pelo WhatsApp">
-    <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
-    <span>Fale com a gente</span>
-  </a>
+  <nav class="floating-contact-actions" aria-label="Canais de contato">
+    <a class="floating-instagram" href="https://www.instagram.com/brandsssport/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o Instagram da Brands Sports em uma nova aba">
+      <svg aria-hidden="true" focusable="false"><use href="#icon-instagram"></use></svg>
+      <span>Instagram</span>
+    </a>
+    <a class="floating-whatsapp js-whatsapp" href="#" aria-label="Falar com a Brands Sports pelo WhatsApp">
+      <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+      <span>WhatsApp</span>
+    </a>
+  </nav>
 
   <div class="mobile-whatsapp-bar">
-    <a class="js-whatsapp" href="#">
+    <a class="mobile-instagram" href="https://www.instagram.com/brandsssport/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o Instagram da Brands Sports em uma nova aba">
+      <svg aria-hidden="true" focusable="false"><use href="#icon-instagram"></use></svg>
+      Instagram
+    </a>
+    <a class="js-whatsapp" href="#" aria-label="Falar com a Brands Sports pelo WhatsApp">
       <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
-      Consultar pelo WhatsApp
+      WhatsApp
     </a>
   </div>
 
