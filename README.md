@@ -4,7 +4,13 @@ Site estático da Brands Sports com catálogo próprio de modelos, busca, filtro
 
 ## Visualizar
 
-Abra `index.html` diretamente no navegador ou sirva a pasta com qualquer servidor estático.
+Com o Node.js instalado, execute na raiz do projeto:
+
+```powershell
+node .\tools\local-server.mjs
+```
+
+Depois, acesse `http://127.0.0.1:4173`. Para usar outra porta, informe-a no fim do comando, por exemplo: `node .\tools\local-server.mjs 8080`.
 
 ## Atualizar o catálogo
 
